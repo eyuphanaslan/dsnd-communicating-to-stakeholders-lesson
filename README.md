@@ -23,12 +23,21 @@ For this project, I was interestested in using Stack Overflow data from 2017 to 
 
 The full set of files related to this course are owned by Udacity, so they are not publicly available here.  However, you can see pieces of the analysis here.  This README also serves as a template for students to follow in creating their own project README files.
 
-
 ## File Descriptions <a name="files"></a>
 
-There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
+This repository contains three Jupyter notebooks and one Python script used to explore the Stack Overflow 2017 survey data and answer the project questions.
 
-There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
+- `1_Data_Exploration.ipynb`  
+  This notebook focuses on exploring the Stack Overflow survey dataset, cleaning relevant variables, and understanding general trends related to education background, experience, and salary.
+
+- `2_Bias_And_Diversity.ipynb`  
+  This notebook investigates potential bias in developer recommendations and examines how diversity-related factors (such as gender and background) influence suggestions for breaking into the tech field.
+
+- `3_Bootcamps_And_Career_Paths.ipynb`  
+  This notebook analyzes the role of bootcamps in helping individuals enter developer roles and explores how bootcamps contribute to career transitions and diversity in tech.
+
+- `salary_model.py`  
+  This Python script contains the functions and modeling logic used to build and evaluate a predictive model for estimating developer salary based on individual characteristics.
 
 ## Results<a name="results"></a>
 
